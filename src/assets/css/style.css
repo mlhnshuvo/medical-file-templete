@@ -4,396 +4,255 @@ a {
 
 body {
   font-family: "Inter", sans-serif;
-  background: #f6f9fc;
+  background: #f6f9fc !important;
 }
 
 /* header start */
-.header {
-  height: 83px;
+
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-ciy9n4-MuiPaper-root-MuiAppBar-root {
+  background-color: #14b8a6;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
   background: #14b8a6;
-  display: flex;
-  justify-content: space-between;
-}
-.header-right {
-  display: flex;
-  position: relative;
-}
-.header-barIcon {
-  width: 32px;
-  height: 32px;
-  padding: 25.99px 26.88px 25.01px 39.06px;
-  cursor: pointer;
 }
 
 .header-searchIcon {
-  width: 32px;
-  height: 32px;
-  padding: 25.99px 0px 25.01px;
-  cursor: pointer;
+  width: 20.12px;
+  height: 20.12px;
 }
 
-.header-flagIcon {
-  width: 32px;
-  height: 22px;
-  cursor: pointer;
-  padding: 31px 32.22px 30px 0px;
+.margintop {
+  margin-top: 40px;
 }
 
-.header-alertIcon {
-  width: 32px;
-  height: 29.41px;
-  cursor: pointer;
-  padding: 20.41px 36.37px 33.18px 0px;
-}
-
-.header-userPhoto {
-  width: 39px;
-  height: 39px;
-  padding: 22px 16px 22px 0px;
-}
-.header-activeIcon {
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  background: #00bb00;
-  border: 1px solid #ffffff;
-  right: 160px;
-  top: 48px;
-  border-radius: 50%;
-}
-
-.header-userName {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 28px;
-  text-transform: capitalize;
-  color: #ffffff;
-  padding: 29px 48px 26px 0px;
-}
-
-/* Chat */
-.chat {
-  padding: 30px 0 0 24px;
-  display: flex;
-}
-.chatLeft {
-  width: 275px;
-  background: #ffffff;
-}
-.chatLeft-border-bottom {
-  border: 1px solid rgba(169, 169, 169, 0.5);
-  transform: rotate(180deg);
-  margin-top: 20px;
-}
-.selectbtn {
-  display: flex;
-  padding: 20px 18px 0 17px;
-}
-.selectbtn-assistant {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  color: #ffffff;
-  background: linear-gradient(225deg, #12b7a7 0%, #2fe8b6 100%);
-  padding: 6px 23px 6px 22px;
-}
-.selectbtn-medecins {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  color: #888a8b;
-  opacity: 0.5;
-  background: rgba(34, 34, 34, 0.05);
-  padding: 6px 23px 6px 22px;
-}
-.chatLeft-header {
-  position: relative;
+.header-sidebar-item {
   display: flex;
   align-items: center;
-  gap: 12px;
-}
-.leftHeader-user {
-  width: 33px;
-  height: 33px;
-  padding: 20px 12px 21px 23px;
-}
-.leftHeader-input {
-  width: 178px;
-  height: 33px;
-  background: #f0f0f0;
-  border-radius: 3px;
-  border: none;
-}
-.leftHeader-input:focus {
-  border: none;
+  gap: 15px;
+  padding: 8px 20px;
+  cursor: pointer;
 }
 
-.leftHeader-input::placeholder {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 18px;
-  color: #a9a9a9;
-  padding-left: 30px;
-}
-
-.leftHeader-input-searcIcon {
-  position: absolute;
-  top: 33px;
-  left: 90px;
-}
-
-/* all user start */
-.all-user {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 242px;
-  padding: 29px 18px 0 15px;
-}
-
-.alluser-img {
-  width: 36px;
-  height: 36px;
-  padding: 5px 0px 28 5px;
-}
-
-.user-activeIcon {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.all-user-name {
-  width: 111px;
-  height: 21px;
+.header-home-text {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #1e1810;
+  display: flex;
+  align-items: center;
+  color: rgba(34, 34, 34, 0.4);
 }
 
-.all-user-lastmsg {
+.top-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #14b8a6;
+  margin-bottom: 15px;
+}
+
+/* Main start */
+.main-left-right {
+  display: flex;
+  gap: 14px;
+}
+
+.main-left {
+  background: #ffffff;
+  text-align: center;
+  width: 356px;
+}
+
+.main-img {
+  width: 134px;
+  height: 134px;
+  margin: 18px 0 10px 0;
+}
+
+.main-user {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
+.main-user-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(34, 34, 34, 0.8);
+}
+
+.main-user-details {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #888a8b;
-  width: 111px;
-  height: 15px;
-  padding-right: 51px;
+  color: rgba(34, 34, 34, 0.4);
 }
 
-.all-user-activeStatus {
-  width: 24px;
-  height: 13px;
+.left-basicInfo {
+  margin: 20px 15px;
+}
+
+.basic-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.basic-info-details {
+  display: flex;
+  gap: 8px;
+  align-items: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 11px;
-  line-height: 13px;
-  color: #888a8b;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(34, 34, 34, 0.6);
 }
 
-.all-user-msgNumber {
+.basic-form-control {
+  margin-top: 12px;
+}
+
+.basic-form-control-bg {
   background: linear-gradient(225deg, #12b7a7 0%, #2fe8b6 100%);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+}
+
+.basic-form-control-txt {
+  color: #ffffff !important;
+}
+
+.basic-form-btn {
+  border-radius: 5px;
+  background: linear-gradient(225deg, #12b7a7 0%, #2fe8b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 10px 75px 10px 75px;
+  border: 2px solid #12b7a7;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.main-right {
+  background: #ffffff;
+  padding: 25px 20px;
+  width: 70%;
+}
+
+.main-right-input {
+  background: #fafafa;
+  border-radius: 5px;
+  width: 396.88px;
+  height: 48.46px;
+  outline: none;
+  border: 0;
+  padding-left: 10px;
+}
+.main-right-input:focus {
+  border: 0;
+  outline: none;
+}
+
+.main-right-input::placeholder {
+  color: rgba(34, 34, 34, 0.4);
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: 13px;
-  text-align: center;
-  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.main-right-top {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
-/* chatRight */
-.rightside {
-  width: 100%;
-  margin-right: 48px;
-}
-
-.chatRight {
-  height: 75px;
-  background: #ffffff;
-}
-
-.chatRight-content {
-  display: flex;
+  gap: 20px;
   justify-content: space-between;
 }
 
-.chatRightLeft {
+.main-right-calender {
   display: flex;
   align-items: center;
+  height: 49px;
+  background: #fafafa;
+  border-radius: 5px;
+  gap: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.152px;
+  line-height: 24px;
+  color: rgba(34, 34, 34, 0.4);
+  cursor: pointer;
 }
 
-.chatRight-header-user {
-  width: 45px;
-  height: 45px;
-  padding: 18px 15px 12px 19px;
+.main-right-titile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #14b8a6;
+  margin: 30px 0;
 }
 
-.chatRight-header-user-name {
+.main-right-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.1);
+  padding-bottom: 4px;
+}
+
+.main-right-item-details {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.main-right-item-ad {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.main-right-item-details-title {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  color: #1e1810;
-}
-
-.chatRight-header-user-title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #02c875;
-}
-.chatRightRight {
-  display: flex;
-  align-items: center;
-}
-
-.chatRight-barIcon {
-  padding: 26.62px 30.38px 25.62px 42.17px;
-}
-
-/* Chat box */
-.chat-box {
-  background: rgba(20, 184, 166, 0.05);
-  height: 100%;
-}
-
-.chat-left {
-  display: flex;
-}
-.chat-box-user {
-  width: 40px;
-  height: 40px;
-  padding: 108px 20px 0 24px;
-}
-
-.chat-box-msg {
-  background: rgba(34, 34, 34, 0.1);
-  border-radius: 15px 15px 15px 0px;
-  width: 377px;
-  height: 81px;
-  margin-top: 63px;
-}
-.chat-box-text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
   color: rgba(34, 34, 34, 0.8);
-  padding: 10.5px 28px 10.5px 15px;
 }
 
-.chat-msg-time {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  color: #5f5f7d;
-  margin-top: 8px;
-}
-
-.chat-right {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.chat-box-user-right {
-  padding: 21px 18px 0 20px;
-}
-.chat-box-msg-right {
-  width: 278px;
-  height: 61px;
-  background: #14b8a6;
-  border-radius: 15px 0px 15px 15px;
-  margin-top: 51.5px;
-}
-.chat-box-text-right {
+.main-right-item-user-name {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 20px;
-  text-align: right;
-  padding: 10.5px 16.5px 10px 21.5px;
-  color: #ffffff;
+  line-height: 15px;
+  color: rgba(34, 34, 34, 0.6);
 }
 
-/* input */
-.input {
-  height: 75px;
-  left: 627px;
-  top: 829px;
-  background: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.input-func {
-  display: flex;
-  align-items: center;
-  padding: 25px 10px 19px 25px;
-  gap: 28px;
-}
-
-.input-box {
-  width: 100%;
-  height: 36px;
-  left: 737px;
-  top: 849px;
-  border: 0.5px solid rgba(95, 95, 125, 0.2);
-  border-radius: 5px;
-  border: 0;
-  background: #f0f0f0;
-}
-
-.meg-send {
-  width: 81px;
-  height: 36px;
-  background: linear-gradient(225deg, #12b7a7 0%, #2fe8b6 100%);
-  border-radius: 0px 5px 5px 0px;
-  font-family: "Poppins";
+.main-right-item-details-activity {
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  padding: 9px 27px;
-  margin-left: 10px;
-  cursor: pointer;
+  font-weight: 400;
+  font-size: 11.5371px;
+  line-height: 14px;
+  color: rgba(34, 34, 34, 0.6);
 }

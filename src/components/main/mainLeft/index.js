@@ -1,8 +1,8 @@
 import React from "react";
-import Input from "./input";
+import MainLeft from "./MainLeft";
 
 const index = () => {
-  return <Input />
+  return <MainLeft />
 };
 
 export default index;

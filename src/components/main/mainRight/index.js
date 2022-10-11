@@ -1,8 +1,8 @@
 import React from "react";
-import ChatBox from "./ChatBox";
+import MainRight from "./MainRight";
 
 const index = () => {
-  return <ChatBox />;
+  return <MainRight />;
 };
 
 export default index;
